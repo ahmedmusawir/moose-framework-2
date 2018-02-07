@@ -46,7 +46,7 @@ body {
 		padding-top: .25rem;
 		padding-bottom: .25rem;
 		// color: lighten($gray-600, 10%);
-		color: lighten($cg-secondary, 15%);
+		color: darken($cg-secondary, 15%);
 		font-family: $secondary-font;
 
 
@@ -92,10 +92,10 @@ img {
 }
 a {
 	text-decoration: none !important;
-	color: lighten($cg-primary, 20%);
+	color: lighten($cg-primary, 10%);
 
 	&:hover {
-		color: lighten($cg-primary, 30%);
+		color: lighten($cg-primary, 20%);
 	}
 }
 

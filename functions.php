@@ -117,11 +117,8 @@ add_action( 'widgets_init', 'moose_framework_2_widgets_init' );
  * Enqueue scripts and styles.
  */
 function moose_framework_2_scripts() {
-	wp_enqueue_style( 'moose-framework-2-main-style', get_template_directory_uri() . '/css/main.min.css', '', 1.0 );
-	// wp_enqueue_style( 'moose-framework-2-slick-slider', get_template_directory_uri() . '/css/slick.css', '', 1.0 );
+	wp_enqueue_style( 'moose-framework-2-main-style', get_template_directory_uri() . '/css/main.min.css', '', 2.0 );
 	wp_enqueue_style( 'moose-framework-2-style', get_stylesheet_uri(), '', 1.0 );
-	// wp_enqueue_script( 'moose-framework-2-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
-	// wp_enqueue_script( 'moose-framework-2-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
 	wp_enqueue_script( 'moose-framework-2-jquery', get_template_directory_uri() . '/js/jquery.min.js', array(), '20151215', true );
 	wp_enqueue_script( 'moose-framework-2-bootstrap-js', get_template_directory_uri() . '/js/bootstrap.bundle.min.js', array(), '20151215', true );
 	wp_enqueue_script( 'moose-framework-2-slick-slider-js', get_template_directory_uri() . '/js/slick.min.js', array(), '20151215', true );

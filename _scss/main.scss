@@ -3,14 +3,37 @@
 =============================*/
 
 @import "global";
+@import "wp_default";
+@import "contents/single-global";
 
 /*=====  End of IMPORTS  ======*/
+
+/*=======================================
+=            HEADER & FOOTER            =
+=======================================*/
+
+@import "headers/header-mfw-001";
+@import "footers/footer-mfw-001";
+
+
+/*=====  End of HEADER & FOOTER  ======*/
+
 
 /*=================================
 =            HOME PAGE            =
 =================================*/
 
 @import "contents/home-page/hero-block-mfw-001";
+@import "contents/home-page/hero-story-block-mfw-001";
+@import "contents/home-page/info-block-mfw-001";
+@import "contents/home-page/slider-block-mfw-001";
 
 /*=====  End of HOME PAGE  ======*/
 
+/*==================================
+=            ABOUT PAGE            =
+==================================*/
+
+@import "contents/about-page/hero-block-mfw-002";
+
+/*=====  End of ABOUT PAGE  ======*/

@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for displaying all pages
+ * Template Name: Page with Sidebar
  *
  * This is the template that displays all pages by default.
  * Please note that this is the WordPress construct of pages
@@ -16,7 +16,7 @@ get_header(); ?>
 
 	<div id="primary" class="content-area container">
 		<div class="row">
-			<main id="main" class="site-main col-sm-12 col-md-12 col-lg-12 col-xl-12">
+			<main id="main" class="site-main col-sm-9 col-md-9 col-lg-9 col-xl-9">
 
 				<?php
 				while ( have_posts() ) : the_post();
@@ -32,7 +32,11 @@ get_header(); ?>
 				?>
 
 			</main><!-- #main -->
-			
+			<aside id="sidebar-mfw-001" class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
+
+				<?php get_sidebar();  ?>
+
+			</aside>
 		</div> <!-- END ROW -->
 	</div><!-- #primary -->
 
