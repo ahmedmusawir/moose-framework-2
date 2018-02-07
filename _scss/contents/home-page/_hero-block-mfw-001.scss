@@ -1,0 +1,284 @@
+/**
+ *
+ * Hero Block 001
+ *
+ */
+
+ #hero-block-mfw-001 {
+ 	width: 100vw;
+ 	height: 93vh;
+
+ 	.hero-info-box {
+		
+		.card {
+	 		background-color: transparent;
+		 	// @include text-hide();
+
+			.card-block {
+			 	.card-title {
+			 		background-color: lighten($cg-secondary, 40%);
+			 		width: 60%;
+			 		margin-bottom: -.35rem;
+			 		border: 1px solid $cg-primary;
+				 	@include caret-right();		
+				 	font-family: $secondary-font;
+			 	}
+				.card-content {
+					background-color: rgba(darken($cg-primary, 10%), .8);
+					// background-color: darken($cg-primary, 10%);
+				 	p {
+				 		font-size: 1rem;
+				 	}	
+				 	.btn {
+						@include border-radius($radius: 50px);
+				 	}
+				}		
+			}
+		}
+ 	}
+ }
+
+ #hero-story-block-mfw-001 {
+	width: 100vw;
+ 	height: 100vh;
+
+ 	@media (max-width: 500px) {
+ 		width: 100%;
+ 		height: auto;
+ 	}
+
+
+	background: url("/wp-content/uploads/2018/02/hero-story-1920x1400.jpg") no-repeat center center fixed;
+
+	  -webkit-background-size: cover;
+
+	  -moz-background-size: cover;
+
+	  -o-background-size: cover;
+
+	  background-size: cover;		
+
+	  .block-content {
+	  	background-color: lighten($cg-secondary, 50%);
+
+	  	.block-title {
+	  		font-size: 4rem;
+	  	}
+	  	.block-subtitle {
+	  		font-size: 3rem;
+	  	}
+	  }	 	
+
+ }
+
+#info-block-mfw-001 {
+	width: 100vw;
+ 	height: 90vh;
+ 	background-color: $cg-extra-1; 
+ 	// border: 1rem solid red;
+ 	@media (max-width: 500px) {
+ 		width: 100%;
+ 		height: auto;
+ 	} 	
+
+ 	.block-content {
+ 		padding-top: 6rem;
+
+ 		.block-title {
+ 			font-size: 4rem;
+ 			padding-bottom: 4rem;
+ 		}
+ 		.left-content {
+
+ 			ul {
+ 				li {
+ 					padding-bottom: 2.5rem;
+
+ 					i {
+ 						font-size: 2rem;
+ 						color: $cg-primary;
+ 						padding-right: 2rem;
+ 					}
+ 				}
+ 			}
+ 		}
+ 	}
+
+}
+
+#slider-block-mfw-001 {
+	width: 100vw;
+ 	height: 100vh;
+
+	background: url("/wp-content/uploads/2018/02/slider-block-1920x1200.jpg") no-repeat center center fixed;
+
+	  -webkit-background-size: cover;
+
+	  -moz-background-size: cover;
+
+	  -o-background-size: cover;
+
+	  background-size: cover;		
+
+	.slider-holder {
+		// padding-top: 10rem;
+		position: relative;
+
+		.home-slider {
+
+			.slick-prev {
+				position: absolute;
+				z-index: 1000;
+				top: 40%;
+				left: 10%;
+				color: transparent;
+				background-color: transparent;
+				outline: none;
+				border: none;
+
+				&::before {
+					content: url('/wp-content/uploads/2018/02/left-arrow-icon-50px.png');
+					cursor: pointer;
+				}
+			}
+			.slick-next {
+				position: absolute;
+				z-index: 1000;
+				left: 80%;
+				bottom: 35%;
+				color: transparent;
+				background-color: transparent;
+				outline: none;
+				border: none;
+
+				&::after {
+					content: url('/wp-content/uploads/2018/02/right-arrow-icon-50px.png');
+					cursor: pointer;
+				}
+			}
+		}
+	}	
+}
+
+
+#footer-mfw-001 {
+
+	width: 100vw;
+	background-color: darken($cg-primary, 10%);
+
+	.widgets_wrapper {
+ 		// height: 40vh;	
+		padding-top: 6rem;
+
+		.widget {
+			// border: 1px solid white;
+			padding-bottom: 2rem;
+
+			h1,h2,h3,h4,h5 {
+				font-family: $secondary-font;
+				color: lighten($cg-primary, 30%);
+			}
+		}
+	}
+	.site-info {
+		background-color: darken($cg-primary, 20%);
+
+		.copyright {
+			color: $gray-500;
+			padding: 1rem;
+			display: inline-block;
+			height: 8vh;
+
+		}				
+	}	
+
+}
+
+#header-mfw-001 {
+
+
+	.navbar {
+		background: darken($cg-primary, 15%);
+		// border: 1rem solid red;
+		.navbar-brand {
+			.logo {
+				position: absolute;
+				top: 0;
+				left: 0;
+
+				@media (max-width: 991px) {
+					// left: 80%;
+				}
+			}
+		}
+		.navbar-toggler {
+			border: 3px solid lighten($cg-primary, 20%);
+
+			.navbar-toggler-icon {
+				// background-color: lighten($cg-primary, 20%);
+				background-image: url('/wp-content/uploads/2018/02/burger_icon-40x40.png');
+			}
+		}
+		#navbar-content {
+			#primary-menu {
+				@media (max-width: 991px) {
+					padding-top: 5rem;
+				}
+
+				.menu-item {
+					padding-left: 1rem;
+					a {
+						color: lighten($cg-secondary, 10%);
+						&:hover {
+							color: lighten($cg-secondary, 20%);
+						}
+					}
+				}
+				.current-menu-item {
+					a {
+						color: lighten($cg-secondary, 30%);
+					}
+				}
+			}
+		}
+
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
