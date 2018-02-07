@@ -1,6 +1,6 @@
 /**
  *
- * Hero Block 002
+ * STYLES: Hero Block 002 
  *
  */
 
@@ -9,8 +9,17 @@
  	height: 93vh;
 
  	.hero-info-box {
-		
-
+		// border: 1rem solid red;
+		padding-top: 3rem;
+		font-family: $primary-font;
+		background-color: rgba(darken($cg-primary, 18%), .5);
+		color: lighten($cg-secondary, 20%);
+		.lead {
+			color: lighten($cg-secondary, 20%);
+			padding-bottom: 3rem;
+			font-size: 2rem;
+			line-height: 2rem;
+		}
  	}
  }
 
