@@ -26,6 +26,7 @@
   "devDependencies": {
     "axios": "^0.17.1",
     "bootstrap": "^4.0.0",
+    "clean-css": "^4.1.9",
     "featherlight": "^1.7.12",
     "font-awesome": "^4.7.0",
     "gulp": "^3.9.1",

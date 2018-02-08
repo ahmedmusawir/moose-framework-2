@@ -22,7 +22,7 @@
 						<ul class="list-unstyled mt-5">
 							<li class="row">
 								<div class="col-2">
-									<i class="fa fa-adjust"></i>	
+									<i class="fas fa-adjust"></i>	
 								</div>
 								<div class="col-10">
 									Mauris rhoncus orci in imperdiet placerat. Vestibulum euismod nisl.
@@ -30,7 +30,7 @@
 							</li>
 							<li class="row">
 								<div class="col-2">
-									<i class="fa fa-adjust"></i>	
+									<i class="fas fa-adjust"></i>	
 								</div>
 								<div class="col-10">
 									Mauris rhoncus orci in imperdiet placerat. Vestibulum euismod nisl.
@@ -38,7 +38,7 @@
 							</li>
 							<li class="row">
 								<div class="col-2">
-									<i class="fa fa-adjust"></i>	
+									<i class="fas fa-adjust"></i>	
 								</div>
 								<div class="col-10">
 									Mauris rhoncus orci in imperdiet placerat. Vestibulum euismod nisl.
