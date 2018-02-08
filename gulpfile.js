@@ -1,12 +1,14 @@
 'use strict';
 
 var gulp = require('gulp'),
-	contact = require('gulp-concat'),
+	concat = require('gulp-concat'),
 	uglify = require('gulp-uglify'),
 	rename = require('gulp-rename'),
 	sass = require('gulp-sass'),
-	maps = require('gulp-sourcemaps');
-	cleanCss = require('gulp-clean-css');
+	maps = require('gulp-sourcemaps'),
+	cleanCss = require('gulp-clean-css'),
+	del = require('del'),
+	stripCssComments = require('gulp-strip-css-comments');
 
 /**
  *
@@ -25,7 +27,7 @@ gulp.task('concatScripts', function(){
 		'_js/script.js'
 		])
 	.pipe(maps.init())
-	.pipe(contact('main.js'))
+	.pipe(concat('main.js'))
 	.pipe(gulp.dest('js'));
 
 });
@@ -50,7 +52,7 @@ gulp.task('compileSass', function(){
 		.pipe(maps.init())
 		// .pipe(sass().on('error', sass.logError))
 		.pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
-		.pipe(rename('main.min.css'))
+		// .pipe(rename('main.min.css'))
 		.pipe(maps.write('./'))
 		.pipe(gulp.dest('css'));
 });
@@ -60,8 +62,12 @@ gulp.task('compileSass', function(){
  * CSS Unification & Minification
  *
  */
-gulp.task('minifyCss', ['compileSass'], function(){
-	return gulp.src('css/*.css')
+gulp.task('clean', function(){
+	del('css/main.min.css');
+});
+
+gulp.task('minifyCss', ['compileSass', 'clean'], function(){
+	return gulp.src(['css/main.css','css/*.css'])
 		.pipe(cleanCss())
 		.pipe(concat('main.min.css'))
 		.pipe(gulp.dest('css'));
