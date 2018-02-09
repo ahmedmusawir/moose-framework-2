@@ -3,12 +3,12 @@
 =============================*/
 
 @import "bower_components/compass-sass-mixins/lib/compass";
-// @import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
 // @import "https://use.fontawesome.com/releases/v5.0.1/css/all.css";
-@import "font-awesome-5/scss/fontawesome.scss";
-@import "font-awesome-5/scss/fa-solid.scss";
-@import "font-awesome-5/scss/fa-regular.scss";
-@import "font-awesome-5/scss/fa-brands.scss";
+// @import "font-awesome-5/scss/fontawesome.scss";
+// @import "font-awesome-5/scss/fa-solid.scss";
+// @import "font-awesome-5/scss/fa-regular.scss";
+// @import "font-awesome-5/scss/fa-brands.scss";
 @import "custom.scss"; //Boostrap 4 Variable Override
 @import "bower_components/bootstrap/scss/bootstrap.scss";
 @import "slick-slider/slick.scss";
@@ -63,7 +63,7 @@ body {
 	}
 
 	h1,h2,h3,h4,h5 {
-		color: $cg-primary;
+		color: lighten($cg-secondary, 15%);
 		padding-top: .25rem;
 		padding-bottom: .25rem;
 		font-family: $primary-font; 
@@ -96,10 +96,10 @@ img {
 }
 a {
 	text-decoration: none !important;
-	color: lighten($cg-primary, 10%);
+	color: lighten($cg-secondary, 10%);
 
 	&:hover {
-		color: lighten($cg-primary, 20%);
+		color: lighten($cg-secondary, 20%);
 	}
 }
 

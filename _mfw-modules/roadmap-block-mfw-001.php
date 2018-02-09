@@ -20,7 +20,7 @@
 				<div class="col-sm-4 col-md-4 col-lg-4">
 					<article class="roadmap-content text-center">
 						<figure>
-							<a href="#"><i class="fas fa-heartbeat fa-7x"></i></a>
+							<a href="#"><i class="fa fa-heartbeat"></i></a>
 						</figure>
 						<h3 class="title">Wedding Receptions</h3>
 						<p class="description">
@@ -31,7 +31,7 @@
 				<div class="col-sm-4 col-md-4 col-lg-4">
 					<article class="roadmap-content text-center">
 						<figure>
-							<a href="#"><i class="fas fa-users fa-7x"></i></a>
+							<a href="#"><i class="fa fa-users"></i></a>
 						</figure>
 						<h3 class="title">Corporate Retreats</h3>
 						<p class="description">
@@ -42,7 +42,7 @@
 				<div class="col-sm-4 col-md-4 col-lg-4">
 					<article class="roadmap-content text-center">
 						<figure>
-							<a href="#"><i class="fas fa-shopping-basket fa-7x"></i></a>
+							<a href="#"><i class="fa fa-shopping-basket"></i></a>
 						</figure>
 						<h3 class="title">Ceo Vacations</h3>
 						<p class="description">

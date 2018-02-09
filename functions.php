@@ -181,6 +181,11 @@ require get_template_directory() . '/_mfw-functions/bootstrap-navwalker/bootstra
 /*=====  End of MOOSE INCLUDES  ======*/
 
 
+// MOOSE FRAMEWORK FUNCTIONS ON MAIN THEME
+require get_template_directory() . '/_mfw-functions/helper-functions.php';
+require get_template_directory() . '/_mfw-functions/admin-functions.php';
+require get_template_directory() . '/_mfw-functions/test-functions.php';
+
 
 
 
