@@ -30,15 +30,16 @@
 			}
 			input[type="text"], textarea {
 
-			  background-color : darken($cg-secondary, 10%); 
+			  background-color : darken($cg-secondary, 15%); 
 			  border-color: $cg-secondary;
+			  color: lighten($cg-secondary, 30%);
 
 			}	
 			input[type="email"], textarea {
 
-			  background-color : darken($cg-secondary, 10%); 
+			  background-color : darken($cg-secondary, 15%); 
 			  border-color: $cg-secondary;
-			  
+			  color: lighten($cg-secondary, 30%);
 
 			}				
 		}

@@ -23,7 +23,8 @@
 
 
 	<section class="">
-		<img class="img-fluid" src="/wp-content/uploads/2018/02/contact-hero-1920x320.jpg">
+		<img class="img-fluid d-none d-md-block" src="/wp-content/uploads/2018/02/contact-hero-1920x320.jpg">
+		<img class="img-fluid d-md-none" src="/wp-content/uploads/2018/02/contact-hero-800x440.jpg">
 		<div class="col-sm-12 col-md-12 co-lg-12">
 			<div class="item">
 				<article class="hero-info-box text-center">
