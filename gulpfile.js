@@ -50,7 +50,6 @@ gulp.task('minifyScripts', ['concatScripts'], function(){
 gulp.task('compileSass', function(){
 	return gulp.src('_scss/main.scss')
 		.pipe(maps.init())
-		// .pipe(sass().on('error', sass.logError))
 		.pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
 		// .pipe(rename('main.min.css'))
 		.pipe(maps.write('./'))
@@ -80,7 +79,7 @@ gulp.task('minifyCss', ['compileSass', 'clean'], function(){
  */
 
 gulp.task('watchAll', function () {
-  gulp.watch('_scss/**/*.scss', ['compileSass']);
+  gulp.watch('_scss/**/*.scss', ['minifyCss']);
   gulp.watch('_js/**/*.js', ['concatScripts', 'minifyScripts']);
 });
 
@@ -90,6 +89,6 @@ gulp.task('watchAll', function () {
  *
  */
 
- gulp.task('build', ['compileSass', 'concatScripts', 'minifyScripts', 'watchAll']);
+ gulp.task('build', ['minifyCss', 'minifyScripts', 'watchAll']);
 
  gulp.task('default', ['build']);
