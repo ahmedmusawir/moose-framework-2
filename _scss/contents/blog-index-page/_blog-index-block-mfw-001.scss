@@ -26,6 +26,8 @@
 			    @include transition-duration(.5s);
 			    @include transition-timing-function(ease);		
 			    // @include transition-timing-function(ease-in-out);		
+				@include border-top-left-radius(45px);
+				@include border-bottom-right-radius(45px);			    
 
 				&:hover {
 					@include transform(scale(1.1));

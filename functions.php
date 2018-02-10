@@ -118,7 +118,7 @@ add_action( 'widgets_init', 'moose_framework_2_widgets_init' );
  */
 function moose_framework_2_scripts() {
 	//MOOSE FRAMEWORK 2.0 STYLES UNIFIED & MINIFIED
-	wp_enqueue_style( 'moose-framework-2-main-style', get_template_directory_uri() . '/css/main.min.css', '', 3.0 );
+	wp_enqueue_style( 'moose-framework-2-main-style', get_template_directory_uri() . '/css/main.min.css', '', 4.0 );
 
 	//MOOSE FRAMEWORK 2.0 STYLE.CSS - USED FOR POST PRODUCTION UPDATES ONLY
 	wp_enqueue_style( 'moose-framework-2-style', get_stylesheet_uri(), '', 1.0 );
