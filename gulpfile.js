@@ -51,7 +51,6 @@ gulp.task('compileSass', function(){
 	return gulp.src('_scss/main.scss')
 		.pipe(maps.init())
 		.pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
-		// .pipe(rename('main.min.css'))
 		.pipe(maps.write('./'))
 		.pipe(gulp.dest('css'));
 });

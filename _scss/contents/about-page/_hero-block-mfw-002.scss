@@ -12,7 +12,10 @@
 		// border: 1rem solid red;
 		padding-top: 3rem;
 		font-family: $primary-font;
-		background-color: rgba(darken($cg-primary, 18%), .5);
+		background-color: rgba(darken($cg-primary, 18%), .6);
+		@include border-top-left-radius(45px);
+		@include border-bottom-right-radius(45px);
+		
 		color: lighten($cg-secondary, 20%);
 		.lead {
 			color: lighten($cg-secondary, 20%);

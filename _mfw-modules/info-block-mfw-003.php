@@ -10,7 +10,7 @@
 
 	<section class="container">
 
-		<article class="block-content">
+		<article class="block-content wow slideInUp">
 
 			<figure class="text-center">
 				<img class="img-fluid" src="/wp-content/uploads/2018/02/hero-story-icon-right.png">

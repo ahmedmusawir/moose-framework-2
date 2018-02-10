@@ -18,7 +18,7 @@
 
 			<div class="row">
 				<div class="col-sm-4 col-md-4 col-lg-4">
-					<article class="roadmap-content text-center">
+					<article class="roadmap-content text-center wow slideInLeft">
 						<figure>
 							<a href="#"><i class="fa fa-heartbeat"></i></a>
 						</figure>
@@ -29,7 +29,7 @@
 					</article>
 				</div>
 				<div class="col-sm-4 col-md-4 col-lg-4">
-					<article class="roadmap-content text-center">
+					<article class="roadmap-content text-center wow slideInUp">
 						<figure>
 							<a href="#"><i class="fa fa-users"></i></a>
 						</figure>
@@ -40,7 +40,7 @@
 					</article>
 				</div>
 				<div class="col-sm-4 col-md-4 col-lg-4">
-					<article class="roadmap-content text-center">
+					<article class="roadmap-content text-center wow slideInRight">
 						<figure>
 							<a href="#"><i class="fa fa-shopping-basket"></i></a>
 						</figure>

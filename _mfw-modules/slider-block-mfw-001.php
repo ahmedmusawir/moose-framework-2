@@ -10,7 +10,7 @@
 
 	<section class="container-fluid">
 
-		<article class="slider-holder">
+		<article class="slider-holder wow slideInUp">
 			
 		  <div class="home-slider">
 		    <!-- <div><img src="http://via.placeholder.com/450x450"></div> -->

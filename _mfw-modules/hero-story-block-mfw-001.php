@@ -19,7 +19,7 @@
 
 					<div class="row">
 						<div class="col-sm-6">
-							<img class="img-fluid wow bounce" src="/wp-content/uploads/2018/02/hero-story-icon-left.png" alt="">
+							<img class="img-fluid" src="/wp-content/uploads/2018/02/hero-story-icon-left.png" alt="">
 							<h2 class="block-subtitle text-capitalize">Experience</h2>
 							<p>
 								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod

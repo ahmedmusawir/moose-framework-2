@@ -22,7 +22,7 @@
 						<ul class="list-unstyled mt-5">
 							<li class="row">
 								<div class="col-2">
-									<i class="fas fa-adjust"></i>	
+									<i class="fa fa-adjust"></i>	
 								</div>
 								<div class="col-10">
 									Mauris rhoncus orci in imperdiet placerat. Vestibulum euismod nisl.
@@ -30,7 +30,7 @@
 							</li>
 							<li class="row">
 								<div class="col-2">
-									<i class="fas fa-adjust"></i>	
+									<i class="fa fa-adjust"></i>	
 								</div>
 								<div class="col-10">
 									Mauris rhoncus orci in imperdiet placerat. Vestibulum euismod nisl.
@@ -38,7 +38,7 @@
 							</li>
 							<li class="row">
 								<div class="col-2">
-									<i class="fas fa-adjust"></i>	
+									<i class="fa fa-adjust"></i>	
 								</div>
 								<div class="col-10">
 									Mauris rhoncus orci in imperdiet placerat. Vestibulum euismod nisl.
@@ -50,7 +50,7 @@
 				<div class="col-sm-8">
 					<article class="right-content p-2">
 
-						<img class="img-fluid rounded-circle" src="/wp-content/uploads/2018/02/info-block-map.jpg">
+						<img class="img-fluid rounded-circle wow slideInUp" src="/wp-content/uploads/2018/02/info-block-map.jpg">
 											
 					</article>
 				</div>

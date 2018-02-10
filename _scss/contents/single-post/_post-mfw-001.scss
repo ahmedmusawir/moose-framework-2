@@ -1,0 +1,28 @@
+/**
+ *
+ * STYLE: Single Blog Post 001
+ *
+ */
+
+#post-mfw-001 {
+	padding-bottom: 5rem;
+	margin-top: -4rem;
+
+	.entry-header {
+		
+		.header-content {
+			width: 100vw;
+			height: 100vh;
+
+			background-color: rgba(darken($cg-primary, 20%), .8);
+
+			.entry-title {
+				font-family: $primary-font;
+				color: lighten($cg-secondary, 20%);
+			}
+			.entry-meta {
+				clear: both;
+			}
+		}
+	}
+}
