@@ -30,10 +30,10 @@
 			</style>
 			<article class="header-content d-flex flex-column">
 				
-				<main class="my-auto mx-auto">
+				<main class="my-auto mx-auto text-center">
 					<?php
 					if ( is_singular() ) :
-						the_title( '<div class="entry-title mx-auto display-1">', '</div>' );
+						the_title( '<h1 class="entry-title mx-auto">', '</h1>' );
 						// the_title( '<h1 class="entry-title text-center">', '</h1>' );
 					else :
 						the_title( '<h2 class="entry-title mx-auto"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
@@ -44,24 +44,65 @@
 						<?php
 							moose_framework_2_posted_on();
 							moose_framework_2_posted_by();
+					 		moose_framework_2_entry_footer();
 						?>
 					</div><!-- .entry-meta -->
 					<?php
 					endif; ?>
+
 				</main>
 
 			</article>
 		</header><!-- .entry-header -->
 
 
-		<div class="entry-content">
-			<?php
-				the_content();
-			?>
+		<div class="entry-content container">
+			<div class="row">
+				<div class="col-sm-8 col-md-8 col-lg-7 col-xl-6 mx-auto">
+					<?php
+						the_content();
+					?>					
+				</div>
+			</div>
 		</div><!-- .entry-content -->
 
 		<footer class="entry-footer">
-			<?php moose_framework_2_entry_footer(); ?>
 		</footer><!-- .entry-footer -->
 	</section>
 </article><!-- #post-<?php the_ID(); ?> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
