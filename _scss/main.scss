@@ -6,6 +6,7 @@
 @import "wp_default";
 @import "contents/single-global";
 @import "contents/404-page";
+@import "contents/sidebar/sidebar-global";
 
 /*=====  End of IMPORTS  ======*/
 
@@ -66,6 +67,25 @@
 @import "contents/single-post/post-mfw-001";
 
 /*=====  End of SINGLE BLOG POST  ======*/
+
+/*=========================================
+=            SEARCH INDEX PAGE            =
+=========================================*/
+
+@import "contents/search-index-page/search-index-block-mfw-001";
+
+
+/*=====  End of SEARCH INDEX PAGE  ======*/
+
+/*==========================================
+=            ARCHIVE INDEX PAGE            =
+==========================================*/
+
+@import "contents/archive-index-page/archive-index-block-mfw-001";
+
+/*=====  End of ARCHIVE INDEX PAGE  ======*/
+
+
 
 
 

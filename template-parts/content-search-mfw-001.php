@@ -8,7 +8,7 @@
  */
 
 ?>
-
+<!-- <h1>search-mfw-001</h1> -->
 <article id="post-<?php the_ID(); ?>" <?php post_class('post-item'); ?>>
 	<header class="entry-header">
 
