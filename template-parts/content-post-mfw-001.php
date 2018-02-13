@@ -61,6 +61,11 @@
 				<div class="col-sm-8 col-md-8 col-lg-7 col-xl-6 mx-auto">
 					<?php
 						the_content();
+
+						// If comments are open or we have at least one comment, load up the comment template.
+						if ( comments_open() || get_comments_number() ) :
+							comments_template();
+						endif;						
 					?>					
 				</div>
 			</div>

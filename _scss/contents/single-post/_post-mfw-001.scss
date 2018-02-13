@@ -96,5 +96,57 @@
 				padding-bottom: 2rem;
 			}
 		}
+
+		#commentform {
+			// border: 1rem solid red;
+			input {
+				width: 100%;
+				background-color: lighten($cg-secondary, 30%);
+				border: 1px solid lighten($cg-secondary, 30%);
+			}
+			textarea {
+				width: 100%;
+				background-color: lighten($cg-secondary, 30%);
+				border: 1px solid lighten($cg-secondary, 30%);
+			}
+			#submit {
+				background-color: lighten($cg-secondary, 20%);
+				&:hover {
+					background-color: lighten($cg-secondary, 10%);
+					color: white;
+				}
+			}
+		}
+
+
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
