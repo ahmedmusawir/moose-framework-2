@@ -7,7 +7,7 @@
 #footer-mfw-001 {
 
 	width: 100vw;
-	background-color: darken($cg-primary, 10%);
+	background-color: darken($cg-primary, 15%);
 
 	.widgets_wrapper {
 		padding-top: 6rem;
@@ -50,10 +50,43 @@
 		}
 
 		.copyright {
-			color: $gray-500;
+			color: $gray-600;
 			padding: 1rem;
 			display: inline-block;
 			height: 8vh;
+
+			a {
+				color: $gray-600;
+			}
 		}				
 	}	
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

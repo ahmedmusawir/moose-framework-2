@@ -110,6 +110,33 @@ function moose_framework_2_widgets_init() {
 		'before_title'  => '<h2 class="widget-title">',
 		'after_title'   => '</h2>',
 	) );
+	register_sidebar( array(
+		'name'          => esc_html__( 'Footer Sidebar 1', 'moose-framework-2' ),
+		'id'            => 'footer-sidebar-1',
+		'description'   => esc_html__( 'Add widgets here.', 'moose-framework-2' ),
+		'before_widget' => '<section id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h2 class="widget-title">',
+		'after_title'   => '</h2>',
+	) );
+	register_sidebar( array(
+		'name'          => esc_html__( 'Footer Sidebar 2', 'moose-framework-2' ),
+		'id'            => 'footer-sidebar-2',
+		'description'   => esc_html__( 'Add widgets here.', 'moose-framework-2' ),
+		'before_widget' => '<section id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h2 class="widget-title">',
+		'after_title'   => '</h2>',
+	) );
+	register_sidebar( array(
+		'name'          => esc_html__( 'Footer Sidebar 3', 'moose-framework-2' ),
+		'id'            => 'footer-sidebar-3',
+		'description'   => esc_html__( 'Add widgets here.', 'moose-framework-2' ),
+		'before_widget' => '<section id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h2 class="widget-title">',
+		'after_title'   => '</h2>',
+	) );
 }
 add_action( 'widgets_init', 'moose_framework_2_widgets_init' );
 

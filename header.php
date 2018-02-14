@@ -27,7 +27,7 @@
 	<header id="header-mfw-001" class="site-header">
 
 		<!-- Moose_Framework_2 NAVIGATION GOES HERE -->
-		<nav class="navbar navbar-expand-lg  fixed-top">
+		<nav class="navbar navbar-expand-xl fixed-top">
 			<a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>"><img class="logo img-fluid" src="/wp-content/uploads/2018/02/LaCasa-Logo-150x100.jpg"></a>
 			<button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="<?php esc_html_e( 'Toggle Navigation', 'theme-textdomain' ); ?>">
 				<span class="navbar-toggler-icon"></span>

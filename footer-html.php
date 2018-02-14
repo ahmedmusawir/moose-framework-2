@@ -19,56 +19,30 @@
 		<div class="container widgets_wrapper">
 		   <div class="row">
 		      <div class="col-sm-4">
-
-				<?php
-
-					if ( ! is_active_sidebar( 'footer-sidebar-1' ) ) {
-						
-						echo "Please Insert A Widget";
-					}
-				?>
-
-					<aside id="footer-widget-1" class="widget-area">
-						<?php dynamic_sidebar( 'footer-sidebar-1' ); ?>
-					</aside><!-- #secondary -->
-
-				?>		      	
-		        
+		         <aside id="text-2" class="widget widget_text">
+		            <div class="textwidget">
+		                  <div class="image_wrapper"><img class="img-fluid" src="/wp-content/uploads/2018/02/LaCasa-footer-Logo-300x200.png" alt="home_garden2_footer_logo"></div>
+		            </div>
+		         </aside>
 		      </div>
 		      <div class="col-sm-4">
-
-				<?php
-
-					if ( ! is_active_sidebar( 'footer-sidebar-2' ) ) {
-						
-						echo "Please Insert A Widget";
-					}
-				?>
-
-					<aside id="footer-widget-1" class="widget-area">
-						<?php dynamic_sidebar( 'footer-sidebar-2' ); ?>
-					</aside><!-- #secondary -->
-
-				?>		      	
-
-		         
+		         <aside id="text-3" class="widget widget_text">
+		            <h4>CONTACT WITH US</h4>
+		            <div class="textwidget">
+		               <p class="big">Quisque nec nunc libero fringilla mollis. Nulla quisorci luctus augue.</p>
+		               <p class="big themecolor">telephone: +61 (0) 3 8376 6284</p>
+		               <p class="big themecolor">e-mail: noreply@lacasa.com</p>
+		            </div>
+		         </aside>
 		      </div>
 		      <div class="col-sm-4">
-
-				<?php
-
-					if ( ! is_active_sidebar( 'footer-sidebar-3' ) ) {
-						
-						echo "Please Insert A Widget";
-					}
-				?>
-
-					<aside id="footer-widget-1" class="widget-area">
-						<?php dynamic_sidebar( 'footer-sidebar-3' ); ?>
-					</aside><!-- #secondary -->
-
-				?>		      	
-
+		         <aside id="text-4" class="widget widget_text">
+		            <h4>ADDRESS</h4>
+		            <div class="textwidget">
+		               <p>Morbi nisl risus, consequat tempor vel, sapien. Praesent feugiat. Proin dolor. Vestibulum egestas quam ante nec. Sed lobortis facilisis.</p>
+		               <a href="#">FAQ</a> &nbsp;&nbsp;&nbsp; <a href="#">Send us a message</a>
+		            </div>
+		         </aside>
 		      </div>
 		   </div> <!-- END ROW -->
 		   <div class="row">
