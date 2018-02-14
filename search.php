@@ -12,7 +12,7 @@ get_header(); ?>
 <section id="BLOCK1">
 					
 	<?php get_template_part( '_mfw-modules/search-index-block-mfw-001' ); ?>
-	<?php //get_template_part( '_mfw-modules/search-index-block-with-sidebar-mfw-001' ); ?>
+	<?php get_template_part( '_mfw-modules/search-index-block-with-sidebar-mfw-001' ); ?>
 	
 </section>
 
