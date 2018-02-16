@@ -9,8 +9,11 @@
 
 get_header(); ?>
 
+	<section id="general-page-header">
+		<img class="img-fluid" src="/wp-content/uploads/2018/02/general-page-header-2400x300.jpg">
+	</section>
+
 	<div id="primary" class="content-area container">
-		<img class="img-fluid mx-auto rounded-circle" src="/wp-content/uploads/2018/02/404-page-header-img.jpg">
 
 		<div class="row">
 			<div class="col-sm-12 col-md-9 col-lg-8 col-xl-6  mx-auto">

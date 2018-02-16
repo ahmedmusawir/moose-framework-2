@@ -14,6 +14,20 @@
 
 get_header(); ?>
 
+	<style type="text/css">
+		#general-page-header {
+			/*width: 100vw;*/
+			/*height: 20vh;*/
+			/*background-color: black;*/
+			/*background-image: url('/wp-content/uploads/2018/02/general-page-header-2400x300.jpg');*/
+			/*background-size: 100% auto;*/
+		}
+	</style>
+
+	<section id="general-page-header">
+		<img class="img-fluid" src="/wp-content/uploads/2018/02/general-page-header-2400x300.jpg">
+	</section>
+
 	<div id="primary" class="content-area container">
 		<div class="row">
 			<main id="main" class="site-main col-sm-12 col-md-12 col-lg-12 col-xl-12">

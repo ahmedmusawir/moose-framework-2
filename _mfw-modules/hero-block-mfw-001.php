@@ -23,7 +23,7 @@
 
 	<section class="container">
 		<div class="col-sm-10 col-md-7 co-lg-7">
-			<div class="item">
+			<div class="item wow fadeIn">
 				<article class="hero-info-box">
 					<div class="card">
 						<!-- <img class="card-img-top" data-src="holder.js/100%x180/" alt="Card image cap"> -->

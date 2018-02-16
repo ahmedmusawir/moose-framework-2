@@ -23,7 +23,7 @@
 	<article id="hero-content" class="d-flex align-items-center mx-auto">
 		<section class="container">
 			<div class="col-sm-12 col-md-12 co-lg-12">
-				<div class="item">
+				<div class="item wow fadeIn">
 					<article class="hero-info-box text-center">
 						<div class="display-1">About Us</div>
 						<p class="lead">

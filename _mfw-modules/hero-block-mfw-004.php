@@ -23,12 +23,15 @@
 	<article id="hero-content" class="d-flex align-items-center mx-auto">
 		<section class="container">
 			<div class="col-sm-12 col-md-12 co-lg-12">
-				<div class="item">
+				<div class="item wow fadeIn">
 					<article class="hero-info-box text-center">
-						<div class="display-1">Wedding Receptions</div>
+						<h1 class="hero-title">Wedding Receptions</h1>
 						<p class="lead">
 							Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia. Curae faucibus orci luctus et ultrices posuere
 						</p>
+						<aside class="hero-btn-holder">
+							<a class="btn btn-secondary btn-lg" href="#">Book Now</a>
+						</aside>
 					</article> <!-- END HERO INFO BOX -->
 				</div>
 			</div>

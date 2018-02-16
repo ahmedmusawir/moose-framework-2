@@ -24,7 +24,7 @@
 	<section class="container-fluid">
 		<div class="col-sm-10 col-md-7 co-lg-7">
 			<div class="item">
-				<article class="hero-info-box">
+				<article class="hero-info-box wow fadeIn">
 					<div class="card">
 						<!-- <img class="card-img-top" data-src="holder.js/100%x180/" alt="Card image cap"> -->
 						<div class="card-block">

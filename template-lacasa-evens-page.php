@@ -16,7 +16,8 @@ get_header(); ?>
 
 <section id="BLOCK1">
 					
-	<?php get_template_part( '_mfw-modules/hero-block-mfw-004' ); ?>
+	<?php //get_template_part( '_mfw-modules/hero-block-mfw-004' ); ?>
+	<?php get_template_part( '_mfw-modules-ACF/hero-block-mfw-ACF-004' ); ?>
 	
 </section>
 
@@ -48,6 +49,12 @@ get_header(); ?>
 </section>
 
 <section id="BLOCK6">
+
+	<?php get_template_part( '_mfw-modules/optin-block-mfw-001' ); ?>
+	
+</section>
+
+<section id="BLOCK7">
 
 	<?php get_template_part( '_mfw-modules/slider-block-mfw-001' ); ?>
 	
