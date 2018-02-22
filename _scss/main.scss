@@ -1,15 +1,15 @@
 /*=============================
-=            IMPORTS            =
+=            GLOBALS            =
 =============================*/
 
 @import "global";
 @import "wp_default";
 @import "contents/single-global";
-@import "contents/404-page";
+@import "contents/404-page/404-page";
 @import "contents/sidebar/sidebar-global";
 @import "footers/footer-general";
 
-/*=====  End of IMPORTS  ======*/
+/*=====  End of GLOBALS  ======*/
 
 /*=======================================
 =            HEADER & FOOTER            =
@@ -20,38 +20,6 @@
 
 
 /*=====  End of HEADER & FOOTER  ======*/
-
-
-/*=================================
-=            HOME PAGE            =
-=================================*/
-
-@import "contents/home-page/hero-block-mfw-001";
-@import "contents/home-page/hero-story-block-mfw-001";
-@import "contents/home-page/info-block-mfw-001";
-@import "contents/home-page/slider-block-mfw-001";
-
-/*=====  End of HOME PAGE  ======*/
-
-/*==================================
-=            ABOUT PAGE            =
-==================================*/
-
-@import "contents/about-page/hero-block-mfw-002";
-@import "contents/about-page/roadmap-block-mfw-001";
-@import "contents/about-page/info-block-mfw-002";
-@import "contents/about-page/info-block-mfw-003";
-
-/*=====  End of ABOUT PAGE  ======*/
-
-/*==================================
-=            CONTACT PAGE            =
-==================================*/
-
-@import "contents/contact-page/hero-block-mfw-003";
-@import "contents/contact-page/contact-block-mfw-001";
-
-/*=====  End of CONTACT PAGE  ======*/
 
 /*=======================================
 =            BLOG INDEX PAGE            =
@@ -75,7 +43,6 @@
 
 @import "contents/search-index-page/search-index-block-mfw-001";
 
-
 /*=====  End of SEARCH INDEX PAGE  ======*/
 
 /*==========================================
@@ -86,18 +53,39 @@
 
 /*=====  End of ARCHIVE INDEX PAGE  ======*/
 
+
+/*======================================
+=            PROTOTYPE PAGE            =
+======================================*/
+
+// @import "contents/prototype-page";
+
+/*=================================
+=            HOME PAGE            =
+=================================*/
+
+@import "contents/home-page-template";
+
+/*==================================
+=            ABOUT PAGE            =
+==================================*/
+
+@import "contents/about-page-template";
+
+/*==================================
+=            CONTACT PAGE            =
+==================================*/
+
+@import "contents/contact-page-template";
+
 /*===========================================
 =            LACASA EVENTS PAGE            =
 ===========================================*/
 
-@import "contents/lacasa-events-page/hero-block-mfw-004";
-@import "contents/lacasa-events-page/hero-story-block-mfw-002";
-@import "contents/lacasa-events-page/hero-story-block-mfw-003";
-@import "contents/lacasa-events-page/hero-story-block-mfw-004";
-@import "contents/lacasa-events-page/optin-block-mfw-001";
+@import "contents/lacasa-events-page-template";
 
 
-/*=====  End of LACASA EVENTS PAGE  ======*/
+/*=====  End of PAGE TEMPLATES  ======*/
 
 
 

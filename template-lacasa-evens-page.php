@@ -16,8 +16,8 @@ get_header(); ?>
 
 <section id="BLOCK1">
 					
-	<?php //get_template_part( '_mfw-modules/hero-block-mfw-004' ); ?>
-	<?php get_template_part( '_mfw-modules-ACF/hero-block-mfw-ACF-004' ); ?>
+	<?php //get_template_part( '_mfw-modules/hero-block-mfw-002' ); ?>
+	<?php get_template_part( '_mfw-modules-ACF/hero-block-mfw-ACF-002' ); ?>
 	
 </section>
 

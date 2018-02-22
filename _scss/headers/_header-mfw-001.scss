@@ -35,6 +35,12 @@
 
 				.menu-item {
 					padding-left: 1rem;
+					@media (max-width: 1200px) {
+						border-bottom: 1px solid $cg-secondary;
+						&:hover {
+							background-color: black;
+						}
+					}
 					a {
 						text-transform: uppercase;
 						color: lighten($cg-secondary, 10%);

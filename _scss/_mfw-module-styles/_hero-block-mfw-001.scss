@@ -11,8 +11,8 @@
  	.hero-info-box {
 		
 		.card {
-	 		background-color: transparent;
-		 	// @include text-hide();
+	 		// background-color: transparent;
+		 	@include text-hide();
 
 			.card-block {
 			 	.card-title {
@@ -23,15 +23,16 @@
 				 	@include caret-right();		
 				 	font-family: $secondary-font;
 				 	font-size: 1.3rem;
+					color: $cg-primary;				 	
 			 	}
 				.card-content {
-					background-color: rgba(darken($cg-primary, 10%), .8);
+					background-color: rgba(darken($cg-primary, 10%), .87);
 				 	p {
 				 		font-size: 1rem;
 				 	}	
 				 	.btn {
 						@include border-radius($radius: 50px);
-						// margin-bottom: 3rem;
+				 		font-family: $secondary-font;
 				 	}
 				}		
 			}
