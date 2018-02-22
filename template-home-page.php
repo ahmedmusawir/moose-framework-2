@@ -32,14 +32,16 @@ get_header(); ?>
 
 <section id="SECTION-3">
 
-	<?php get_template_part( '_mfw-modules/info-block-mfw-001' ); ?>
+	<?php // get_template_part( '_mfw-modules/info-block-mfw-001' ); ?>
+	<?php get_template_part( '_mfw-modules-ACF/info-block-mfw-ACF-001' ); ?>
 	
 </section>
 
 
 <section id="SECTION-4">
 
-	<?php get_template_part( '_mfw-modules/slider-block-mfw-001' ); ?>
+	<?php //get_template_part( '_mfw-modules/slider-block-mfw-001' ); ?>
+	<?php get_template_part( '_mfw-modules-ACF/slider-block-mfw-ACF-001' ); ?>
 	
 </section>
 
