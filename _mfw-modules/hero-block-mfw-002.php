@@ -25,7 +25,7 @@
 			<div class="col-sm-12 col-md-12 co-lg-12">
 				<div class="item wow fadeIn">
 					<article class="hero-info-box text-center">
-						<div class="display-1">About Us</div>
+						<h1 class="hero-title">About Us</h1>
 						<p class="lead">
 							Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia. Curae faucibus orci luctus et ultrices posuere
 						</p>

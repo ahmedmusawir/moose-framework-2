@@ -6,9 +6,7 @@
 
 #info-block-mfw-003 {
 	width: 100vw;
- 	// height: 90vh;
  	// background-color: darken($cg-primary, 10%); 
- 	// border: 1rem solid red;
  	@media (max-width: 500px) {
  		width: 100%;
  		height: auto;
@@ -25,9 +23,7 @@
  			color: lighten($cg-secondary, 10%);
  		}
  		.info-content {
- 			.description {
- 				// color: lighten($cg-secondary, 20%);
- 			}
+ 			color: lighten($cg-secondary, 10%);
  		}
  
  	}

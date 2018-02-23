@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: About Page
+ * Template Name: About Page Template
  *
  * This is the template that displays all pages by default.
  * Please note that this is the WordPress construct of pages
@@ -14,31 +14,35 @@
 
 get_header(); ?>
 
-<section id="BLOCK1">
+<section id="SECTION-1">
 					
-	<?php get_template_part( '_mfw-modules/hero-block-mfw-002' ); ?>
+	<?php //get_template_part( '_mfw-modules/hero-block-mfw-002' ); ?>
+	<?php get_template_part( '_mfw-modules-ACF/hero-block-mfw-ACF-002' ); ?>
+
+</section>
+
+
+<section id="SECTION-2">
+
+	<?php //get_template_part( '_mfw-modules/roadmap-block-mfw-001' ); ?>
+	<?php get_template_part( '_mfw-modules-ACF/roadmap-block-mfw-ACF-001' ); ?>
+
+</section>
+
+
+<section id="SECTION-3">
+
+	<?php //get_template_part( '_mfw-modules/info-block-mfw-002' ); ?>
+	<?php get_template_part( '_mfw-modules-ACF/info-block-mfw-ACF-002' ); ?>
 	
 </section>
 
 
-<section id="BLOCK2">
+<section id="SECTION-4">
 
-	<?php get_template_part( '_mfw-modules/roadmap-block-mfw-001' ); ?>
-	
-</section>
+	<?php //get_template_part( '_mfw-modules/info-block-mfw-003' ); ?>
+	<?php get_template_part( '_mfw-modules-ACF/info-block-mfw-ACF-003' ); ?>
 
-
-<section id="BLOCK3">
-
-	<?php get_template_part( '_mfw-modules/info-block-mfw-002' ); ?>
-	
-</section>
-
-
-<section id="BLOCK4">
-
-	<?php get_template_part( '_mfw-modules/info-block-mfw-003' ); ?>
-	
 </section>
 
 <?php

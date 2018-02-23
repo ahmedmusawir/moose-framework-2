@@ -29,11 +29,17 @@
 						<p class="lead">
 							<?php the_field('hero-block-mfw-002-hero_subtitle'); ?>
 						</p>
+
+						<?php if (get_field('hero-block-mfw-002-hero_button_text')) : ?>
+
 						<aside class="hero-btn-holder">
 							<a class="btn btn-secondary btn-lg" href="<?php the_field('hero-block-mfw-002-hero_button_link') ?>">
 								<?php the_field('hero-block-mfw-002-hero_button_text') ?>
 							</a>
 						</aside>
+						
+						<?php endif; ?>
+
 					</article> <!-- END HERO INFO BOX -->
 				</div>
 			</div>
