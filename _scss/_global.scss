@@ -42,7 +42,7 @@ html {
 body {
 
 	font-family: $secondary-font;
-	padding-top: 50px;
+	// padding-top: 50px;
 
 	p {
 		font-size: 1rem;
@@ -131,14 +131,8 @@ a {
  * WP Admin Bar Lowering
  *
  */
-.admin-bar .navbar-fixed-top {
-    margin-top: 30px;
-}
-@media (max-width: 800px) {
-    .admin-bar .navbar-fixed-top {
-        margin-top: 46px;
-    }
-}
+// .navbar .fixed-top { top: 0px; }
+// body.admin-bar { top: 28px !important; }
 
 /*=====  End of GLOBAL CONTENT  ======*/
 

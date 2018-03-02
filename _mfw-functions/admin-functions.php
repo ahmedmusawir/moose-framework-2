@@ -1,5 +1,14 @@
 <?php 
 
+/**
+ *
+ * ADMIN TOOLBAR REMOVAL
+ *
+ */
+
+// add_filter(‘show_admin_bar’, ‘__return_false’);
+add_filter( 'show_admin_bar', '__return_false', PHP_INT_MAX );
+
 /*======================================
 =            ADD ADMIN LOGO            =
 ======================================*/

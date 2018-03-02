@@ -24,40 +24,47 @@ get_header(); ?>
 
 <section id="BLOCK2">
 
-	<?php get_template_part( '_mfw-modules/hero-story-block-mfw-002' ); ?>
+	<?php //get_template_part( '_mfw-modules/hero-story-block-mfw-002' ); ?>
+	<?php get_template_part( '_mfw-modules-ACF/hero-story-block-mfw-ACF-002' ); ?>
 	
 </section>
 
 
 <section id="BLOCK3">
 
-	<?php get_template_part( '_mfw-modules/hero-story-block-mfw-003' ); ?>
-	
+	<?php //get_template_part( '_mfw-modules/hero-story-block-mfw-003' ); ?>
+	<?php get_template_part( '_mfw-modules-ACF/hero-story-block-mfw-ACF-003' ); ?>
+
 </section>
 
 <section id="BLOCK4">
 
-	<?php get_template_part( '_mfw-modules/hero-story-block-mfw-004' ); ?>
+	<?php //get_template_part( '_mfw-modules/hero-story-block-mfw-004' ); ?>
+	<?php get_template_part( '_mfw-modules-ACF/hero-story-block-mfw-ACF-004' ); ?>
 	
 </section>
 
 
 <section id="BLOCK5">
 
-	<?php get_template_part( '_mfw-modules/info-block-mfw-003' ); ?>
+	<?php //get_template_part( '_mfw-modules/info-block-mfw-003' ); ?>
+	<?php get_template_part( '_mfw-modules-ACF/info-block-mfw-ACF-003' ); ?>
+
 	
 </section>
 
 <section id="BLOCK6">
 
-	<?php get_template_part( '_mfw-modules/optin-block-mfw-001' ); ?>
+	<?php //get_template_part( '_mfw-modules/optin-block-mfw-001' ); ?>
+	<?php get_template_part( '_mfw-modules-ACF/optin-block-mfw-ACF-001' ); ?>
 	
 </section>
 
 <section id="BLOCK7">
 
-	<?php get_template_part( '_mfw-modules/slider-block-mfw-001' ); ?>
-	
+	<?php //get_template_part( '_mfw-modules/slider-block-mfw-001' ); ?>
+	<?php get_template_part( '_mfw-modules-ACF/slider-block-mfw-ACF-001' ); ?>
+
 </section>
 
 <?php
